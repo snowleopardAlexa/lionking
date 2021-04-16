@@ -1,1 +1,0 @@
-This is Readme for the Lion King. 

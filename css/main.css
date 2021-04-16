@@ -1,0 +1,7 @@
+/******** MAIN.CSS ********/
+@font-face {
+    font-family: 'Waltograph';
+    /* src: url('waltograph42.otf'); */
+    src: local('fonts/waltographUI.ttf'), local('Graublau Web');
+    src: local('fonts/lion_king.ttf'), local('Graublau Web');
+  }
