@@ -1,0 +1,53 @@
+/********** FOOTER **********/
+#footer {
+    background-color: #d80e0e;
+    padding: 60px;
+  }
+  
+  .container-fluid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: 'Waltograph';
+    color: #fff;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer-grid {
+      padding-left: 20px;
+    }
+  }
+  
+  section {
+    font-size: 2em;
+    color: #fff;
+    padding: 80px; /* makes the menu horizontally aligned */
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #footer-bottom {
+    justify-content: center;
+  }
+  
+  /* disney-logo */
+  #footer-logo {
+      font-size: 3rem;
+      font-family: 'Waltograph';
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+  /* copyrights */
+  #copyrights { 
+      font-size: 1.5rem;
+      text-align: center;
+      font-family: 'Waltograph';
+    }
+  
