@@ -6,8 +6,6 @@
     padding: 0;
     margin: -1px;
     overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
   }
   
   /* Button styling */
@@ -58,17 +56,11 @@
   .main-menu a {
     display: block;
     padding: .75em 15px;
-   
     font-size: 1em;
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px solid #383838;
   }
-  
-  .main-menu li:first-child a {
-    border-top: 1px solid #383838;
-  }
-  
+
   .main-menu a:hover,
   .main-menu a:focus {
     background: #333;
