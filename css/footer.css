@@ -31,6 +31,10 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .footer-link:hover {
+    color: rgb(104, 37, 13);
+  }
   
   #footer-bottom {
     justify-content: center;
